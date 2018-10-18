@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/PeixuanProject.iml" filepath="$PROJECT_DIR$/.idea/PeixuanProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan/peixuan.iml" filepath="$PROJECT_DIR$/peixuan/peixuan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-admin-api/peixuan-admin-api.iml" filepath="$PROJECT_DIR$/peixuan-admin-api/peixuan-admin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-admin-api-impl/peixuan-admin-api-impl.iml" filepath="$PROJECT_DIR$/peixuan-admin-api-impl/peixuan-admin-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-person-api/peixuan-person-api.iml" filepath="$PROJECT_DIR$/peixuan-person-api/peixuan-person-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-person-api-impl/peixuan-person-api-impl.iml" filepath="$PROJECT_DIR$/peixuan-person-api-impl/peixuan-person-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-train-api/peixuan-train-api.iml" filepath="$PROJECT_DIR$/peixuan-train-api/peixuan-train-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/peixuan-train-api-impl/peixuan-train-api-impl.iml" filepath="$PROJECT_DIR$/peixuan-train-api-impl/peixuan-train-api-impl.iml" />
+    </modules>
+  </component>
+</project>

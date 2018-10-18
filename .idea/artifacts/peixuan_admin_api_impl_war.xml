@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="peixuan-admin-api-impl:war">
+    <output-path>$PROJECT_DIR$/peixuan-admin-api-impl/target</output-path>
+    <root id="archive" name="peixuan-admin-api-impl.war">
+      <element id="artifact" artifact-name="peixuan-admin-api-impl:war exploded" />
+    </root>
+  </artifact>
+</component>
