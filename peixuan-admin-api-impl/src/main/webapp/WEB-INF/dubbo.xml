@@ -9,8 +9,8 @@
     <!-- use multicast registry center to export service -->
     <dubbo:registry address="zookeeper://47.98.178.251:2181"/>
     <!-- use dubbo protocol to export service on port 20880 -->
-    <dubbo:protocol name="dubbo" port="20880"/>
+    <dubbo:protocol name="dubbo" port="20884"/>
     <!-- declare the service interface to be exported -->
-    <dubbo:service interface="com.px.admin.api.TestAdminService" ref="testAdminServiceImpl"/>
-
+    <!--<dubbo:service interface="com.px.admin.api.TestAdminService" ref="testAdminServiceImpl"/>-->
+    <dubbo:annotation package="com.px.admin.api.impl"/>
 </beans>

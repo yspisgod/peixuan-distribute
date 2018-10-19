@@ -12,9 +12,15 @@
     <dubbo:registry protocol="zookeeper" address="47.98.178.251:2181"/>
     <!-- generate proxy for the remote service, then demoService can be used in the same way as the
     local regular interface -->
-    <dubbo:reference id="demoService" check="false" interface="com.px.service.DemoService"/>
-    <dubbo:reference id="testService" check="false" interface="com.px.person.api.TestService"/>
-    <dubbo:reference id="testTrainService" check="false" interface="com.px.train.api.TestTrainService"/>
-    <dubbo:reference id="testAdminService" check="false" interface="com.px.admin.api.TestAdminService"/>
+    <!--<dubbo:reference id="demoService" check="false" interface="com.px.service.DemoService"/>-->
+    <!--<dubbo:reference id="testService" check="false" interface="com.px.person.api.TestService"/>-->
+    <!--<dubbo:reference id="testTrainService" check="false" interface="com.px.train.api.TestTrainService"/>-->
+    <!--<dubbo:reference id="testAdminService" check="false" interface="com.px.admin.api.TestAdminService"/>-->
+
+    <dubbo:annotation package="com.px.controller"/>
+
+    <dubbo:consumer check="false"/>
+
+
 
 </beans>

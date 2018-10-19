@@ -11,6 +11,7 @@
     <!-- use dubbo protocol to export service on port 20880 -->
     <dubbo:protocol name="dubbo" port="20881"/>
     <!-- declare the service interface to be exported -->
-    <dubbo:service interface="com.px.person.api.TestService" ref="testServiceImpl"/>
+    <!--<dubbo:service interface="com.px.person.api.TestService" ref="testServiceImpl"/>-->
+    <dubbo:annotation package="com.px.person.api.impl"/>
 
 </beans>

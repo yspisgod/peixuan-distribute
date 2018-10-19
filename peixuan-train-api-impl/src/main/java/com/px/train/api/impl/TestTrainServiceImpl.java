@@ -1,11 +1,12 @@
 package com.px.train.api.impl;
 
+import com.alibaba.dubbo.config.annotation.Service;
 import com.px.train.api.TestTrainService;
 import com.px.train.dao.ClientDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
-@Service("testTrainServiceImpl")
+
+@Service
 public class TestTrainServiceImpl implements TestTrainService {
     @Autowired
     ClientDao clientDao;
